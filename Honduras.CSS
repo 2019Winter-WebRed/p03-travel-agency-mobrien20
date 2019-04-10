@@ -1,0 +1,34 @@
+/*
+* Meaghan O'Brien 
+* April 2019
+* A Trip to Honduras
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+ background-color: peachpuff; 
+    width: 85%;
+    margin: auto;
+}
+ table, td, th {border: 2px solid purple;}
+    table {border-collapse: collapse;}
+    /* color of first table only*/
+    thead {background-color: lightblue;}
+    /* default sizes for all image i dont specify*/
+img {width: 100px; height: 75px;}
+#flag {width: 100px; height: 50px;} 
+#capital {width: 400px; height: 250px;} 
+#capitalnight {width: 400px; height: 250px;}
+    /*sizes for images in second table */
+#scubadiving {width: 100px; height: 75px; float: right; }
+#paddleboarding {width: 100px; height: 75px; float: right; }
+#horsebackriding {width: 100px; height: 75px; float: left; }
+#canopy {width: 100px; height: 75px; float: left; }
+#view {width: 350px; height: 250px;} { clear: both; }
